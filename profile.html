@@ -4,6 +4,7 @@
 
     <head>
         <title>My Portfolio</title>
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Roboto+Mono&display=swap" rel="stylesheet">
 
         <link rel="stylesheet" href="CSS/style.css">
         <meta name="viewport" content="width=devic-ewidth, initial-scale=1">
@@ -15,7 +16,7 @@
          <div class="container">
 
         <div class="intro">
-            <img src="C:\Users\bingx\Downloads\man-user-color-icon.png" 
+            <img class="profile-picture" src="C:\Users\bingx\Downloads\man-user-color-icon.png" 
             width="150" height="150"
             >
             <h1>Yonatan T.</h1>
@@ -23,6 +24,7 @@
             <p> <i>  "fly above negativity!!!" </i> </p>
         </div>
 
+        <hr/>
 
         <div class="about-grid">            
             <div class="i-am">
@@ -47,22 +49,33 @@
        
         <h4 class="projects-heading">My Projects</h4>
         <div class="projects-grid">    
-
+          <div class="project-image-wrapper">
+            <h4>Project 1</h4>
             <img class="project-image" src="C:\Users\bingx\Downloads\Inventory-Management.jpg" 
-             width="300" height="300"
+             width="300" height="250"
              />
-
+          </div>
+            
+            <div class="project-image-wrapper">
+              <h4>Project 2</h4>
             <img class="project-image" src="C:\Users\bingx\Downloads\court-mediation-judge-technology-.jpg" 
-            width="300" height="300"
+            width="300" height="250"
              />
+            </div>
 
+            <div class="project-image-wrapper">
+              <h4>Project 3</h4>
             <img class="project-image" src="C:\Users\bingx\Downloads\HM.jpg" 
-            width="300" height="300"
+            width="300" height="250"
              />
+            </div>
 
+            <div class="project-image-wrapper">
+              <h4>Project 4</h4>
             <img class="project-image" src="C:\Users\bingx\Downloads\product-500x500.webp"
-            width="300" height="300"
+            width="300" height="250"
              />
+            </div>
 
         </div>
          
@@ -84,13 +97,18 @@
       
       <div>
         <form action="#">
-     <label for="email">
-     Email: <input type="email" id="email" placeholder="Enter your email" /> 
-     </label>
-     <label for="message">
-     Message: <textarea id="message">Your Message</textarea>
-     </label>
-     <input type="submit" valid="Send Message" />
+          <label for="email">
+            <h4>Email:</h4>
+            <input type="email" id="email" placeholder="Enter your email" /> 
+          </label>
+          <label for="message">
+             <h4>Message:</h4>
+             <textarea id="message">Your Message</textarea>
+          </label>
+          <div class="submit-button-wrapper">
+            <input type="submit" valid="Send Message" />
+          </div>
+         
         </form>
      </div>
      
