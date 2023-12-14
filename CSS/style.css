@@ -1,0 +1,19 @@
+.container
+    {
+   max-width: 840px;
+   margin: 0 auto;
+    }
+
+.intro
+    {
+        text-align: center;
+
+    }
+
+.about-grid
+    {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    
